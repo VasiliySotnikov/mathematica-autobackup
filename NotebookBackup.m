@@ -20,7 +20,7 @@ BeginPackage["NotebookBackup`"];
 
 BackupInterval::usage = "Minimum time interval, in seconds, required to elapse before \
 backing up file.";
-BackupInterval = 10 * 60;
+BackupInterval = 60;
 
 AcceptablePaths::usage = "Mathematica files saved \"downstream\" of any of these paths \
 will be backed up.";
