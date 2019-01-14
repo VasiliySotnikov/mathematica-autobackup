@@ -1,4 +1,4 @@
-installdir="$(HOME)"/.Mathematica/Autoload/NotebookBackup
+installdir="$(HOME)"/.Mathematica/Autoload/autobackup
 
 install:
 	mkdir -p "$(installdir)"
